@@ -1,0 +1,21 @@
+﻿<StackPanel x:Class="PrismMetroSample.MedicineModule.Views.ShowSearchPatient"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"  
+            xmlns:const="clr-namespace:PrismMetroSample.Infrastructure.Constants;assembly=PrismMetroSample.Infrastructure"
+             Orientation="Horizontal"    
+            xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding ShowSearchLoadingCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <CheckBox IsChecked="{Binding IsShow}"/>
+    <Button Command="{Binding ApplicationCommands.ShowCommand}" CommandParameter="{x:Static const:FlyoutNames.SearchMedicineFlyout}">
+        <StackPanel Orientation="Horizontal">
+            <Image Height="20" Source="pack://application:,,,/PrismMetroSample.Infrastructure;Component/Assets/Photos/按钮.png"/>
+            <TextBlock Text="Show" FontWeight="Bold" FontSize="15" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Button>
+</StackPanel>

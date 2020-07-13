@@ -1,0 +1,8 @@
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\bin\Debug\netcoreapp3.1\CompositeCommandsCore.deps.json
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\bin\Debug\netcoreapp3.1\CompositeCommandsCore.dll
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\obj\Debug\netcoreapp3.1\CompositeCommandsCore.AssemblyInfoInputs.cache
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\obj\Debug\netcoreapp3.1\CompositeCommandsCore.AssemblyInfo.cs
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\bin\Debug\netcoreapp3.1\CompositeCommandsCore.pdb
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\obj\Debug\netcoreapp3.1\CompositeCommandsCore.csproj.CoreCompileInputs.cache
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\obj\Debug\netcoreapp3.1\CompositeCommandsCore.dll
+C:\d\mmm\VisualStudio-c#\PrismCommandSample\CompositeCommandsCore\obj\Debug\netcoreapp3.1\CompositeCommandsCore.pdb

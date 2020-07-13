@@ -1,0 +1,450 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Shell\\PrismMetroSample.Shell.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj",
+        "projectName": "PrismMetroSample.Infrastructure",
+        "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\11019\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\11019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.0.0-alpha0660, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.MedicineModule\\PrismMetroSample.MedicineModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.MedicineModule\\PrismMetroSample.MedicineModule.csproj",
+        "projectName": "PrismMetroSample.MedicineModule",
+        "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.MedicineModule\\PrismMetroSample.MedicineModule.csproj",
+        "packagesPath": "C:\\Users\\11019\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.MedicineModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\11019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.0.0-alpha0660, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.PatientModule\\PrismMetroSample.PatientModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.PatientModule\\PrismMetroSample.PatientModule.csproj",
+        "projectName": "PrismMetroSample.PatientModule",
+        "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.PatientModule\\PrismMetroSample.PatientModule.csproj",
+        "packagesPath": "C:\\Users\\11019\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.PatientModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\11019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Shell\\PrismMetroSample.Shell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Shell\\PrismMetroSample.Shell.csproj",
+        "projectName": "PrismMetroSample.Shell",
+        "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Shell\\PrismMetroSample.Shell.csproj",
+        "packagesPath": "C:\\Users\\11019\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Shell\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\11019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Infrastructure\\PrismMetroSample.Infrastructure.csproj"
+              },
+              "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.MedicineModule\\PrismMetroSample.MedicineModule.csproj": {
+                "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.MedicineModule\\PrismMetroSample.MedicineModule.csproj"
+              },
+              "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.PatientModule\\PrismMetroSample.PatientModule.csproj": {
+                "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.PatientModule\\PrismMetroSample.PatientModule.csproj"
+              },
+              "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Styling\\PrismMetroSample.Styling.csproj": {
+                "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Styling\\PrismMetroSample.Styling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.0.0-alpha0660, )"
+            },
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Styling\\PrismMetroSample.Styling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Styling\\PrismMetroSample.Styling.csproj",
+        "projectName": "PrismMetroSample.Styling",
+        "projectPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Styling\\PrismMetroSample.Styling.csproj",
+        "packagesPath": "C:\\Users\\11019\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11019\\Documents\\MyProject\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample\\PrismMetroSample.Styling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\11019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.1, 3.1.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

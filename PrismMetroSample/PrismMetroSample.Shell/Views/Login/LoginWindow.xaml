@@ -1,0 +1,21 @@
+﻿<Window x:Class="PrismMetroSample.Shell.Views.Login.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrismMetroSample.Shell.Views.Login"
+        xmlns:region="clr-namespace:PrismMetroSample.Infrastructure.Constants;assembly=PrismMetroSample.Infrastructure"
+        mc:Ignorable="d"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+         Height="600" Width="400" prism:ViewModelLocator.AutoWireViewModel="True" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Icon="pack://application:,,,/PrismMetroSample.Infrastructure;Component/Assets/Photos/Home, homepage, menu.png" >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoginLoadingCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="{x:Static region:RegionNames.LoginContentRegion}" Margin="5"/>
+    </Grid>
+</Window>

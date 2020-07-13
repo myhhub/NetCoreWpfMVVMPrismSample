@@ -1,0 +1,226 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsSample\\CompositeCommandsSample.csproj": {}
+  },
+  "projects": {
+    "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CommandSample\\CommandSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CommandSample\\CommandSample.csproj",
+        "projectName": "CommandSample",
+        "projectPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CommandSample\\CommandSample.csproj",
+        "packagesPath": "C:\\Users\\mmm\\.nuget\\packages\\",
+        "outputPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CommandSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R2 2020\\ToolboxNugetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.myget.org/F/catel/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj": {
+                "projectPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj",
+        "projectName": "CompositeCommandsCore",
+        "projectPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj",
+        "packagesPath": "C:\\Users\\mmm\\.nuget\\packages\\",
+        "outputPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R2 2020\\ToolboxNugetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.myget.org/F/catel/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsSample\\CompositeCommandsSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsSample\\CompositeCommandsSample.csproj",
+        "projectName": "CompositeCommandsSample",
+        "projectPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsSample\\CompositeCommandsSample.csproj",
+        "packagesPath": "C:\\Users\\mmm\\.nuget\\packages\\",
+        "outputPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.20.2.513.0.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R2 2020\\ToolboxNugetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.myget.org/F/catel/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CommandSample\\CommandSample.csproj": {
+                "projectPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CommandSample\\CommandSample.csproj"
+              },
+              "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj": {
+                "projectPath": "C:\\d\\mmm\\VisualStudio-c#\\PrismCommandSample\\CompositeCommandsCore\\CompositeCommandsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

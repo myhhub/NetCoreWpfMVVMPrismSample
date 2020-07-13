@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="PrismMetroSample.Shell.Views.Login.CreateAccount"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PrismMetroSample.Shell.Views.Login"
+             mc:Ignorable="d" 
+             xmlns:conveter="clr-namespace:PrismMetroSample.Infrastructure.Converters;assembly=PrismMetroSample.Infrastructure"
+              xmlns:prism="http://prismlibrary.com/"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             d:DesignHeight="600" d:DesignWidth="400" prism:ViewModelLocator.AutoWireViewModel="True">
+    <UserControl.Resources>
+        <conveter:PasswordConverter x:Key="PasswordConverter"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Width="30" Height="30" HorizontalAlignment="Left" Text="&#xe60d;" FontWeight="Bold" FontFamily="pack://application:,,,/PrismMetroSample.Infrastructure;Component/Assets/Fonts/#iconfont" FontSize="30" Margin="10">
+                                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseLeftButtonDown">
+                            <i:InvokeCommandAction Command="{Binding GoBackCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#F9F9F9"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+            <TextBlock  Grid.Row="1" Text="Create a personal account" Foreground="#3F487F" FontSize="25"  Margin="20,0,20,0" VerticalAlignment="Center" FontWeight="Bold"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="LoginId" Margin="20,0,20,0" Foreground="#B6B9BC"/>
+                <Border Height="50" Grid.Row="1" BorderBrush="#F9F9F9" BorderThickness="2" CornerRadius="15" Margin="20,5,20,5">
+                    <TextBox Text="{Binding RegisteredLoginId}" VerticalAlignment="Center" BorderThickness="0" Background="Transparent" />
+                </Border>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Password" Margin="20,0,20,0" Foreground="#B6B9BC"/>
+                <Border Background="#F9F9F9" Height="50" Grid.Row="1" BorderBrush="Black" BorderThickness="0" CornerRadius="15" Margin="20,5,20,5">
+                    <PasswordBox  x:Name="Password" VerticalAlignment="Center" BorderThickness="0" Background="Transparent" />
+                </Border>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Confirm Password" Margin="20,0,20,0" Foreground="#B6B9BC"/>
+                <Border Background="#F9F9F9" Height="50" Grid.Row="1" BorderBrush="Black" BorderThickness="0" CornerRadius="15" Margin="20,5,20,5">
+                    <PasswordBox x:Name="ConfirmPassword"  VerticalAlignment="Center" BorderThickness="0" Background="Transparent" />
+                </Border>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,20,0,0">
+            <Button Style="{StaticResource LoginButtonStyle}" Command="{Binding VerityCommand}" Content="Verity" VerticalAlignment="Top" Margin="20,0,20,0"  BorderBrush="Black" Height="50"  Foreground="#DAD9FF" FontSize="15" >
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{ StaticResource PasswordConverter}">
+                        <Binding ElementName="Password"/>
+                        <Binding ElementName="ConfirmPassword"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
+            <Grid VerticalAlignment="Bottom" Margin="0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Foreground="#DFE2E3" Text="already registerted?" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <TextBlock  FontWeight="Bold" Foreground="#4F5156" Margin="5,0,0,0" Grid.Column="1" Text="Login" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseLeftButtonDown">
+                            <i:InvokeCommandAction Command="{Binding LoginMainContentCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#F9F9F9"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

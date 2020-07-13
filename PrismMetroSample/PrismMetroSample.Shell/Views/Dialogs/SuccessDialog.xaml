@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="PrismMetroSample.Shell.Views.Dialogs.SuccessDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PrismMetroSample.Shell.Views.Dialogs"
+             mc:Ignorable="d" 
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+               Height="70" prism:ViewModelLocator.AutoWireViewModel="True" >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding CloseDialogCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <prism:Dialog.WindowStyle>
+        <Style TargetType="Window">
+            <Setter Property="prism:Dialog.WindowStartupLocation" Value="CenterScreen" />
+            <Setter Property="ShowInTaskbar" Value="False"/>
+            <Setter Property="SizeToContent" Value="WidthAndHeight"/>
+            <Setter Property="WindowStyle" Value="None"/>
+        </Style>
+    </prism:Dialog.WindowStyle>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image  Margin="15,-10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Source="pack://application:,,,/PrismMetroSample.Infrastructure;Component/Assets/Photos/success.png" Height="50" UseLayoutRounding="True" RenderOptions.BitmapScalingMode="HighQuality"/>
+        <TextBlock Margin="8,-10,45,0"  Grid.Column="1" Text="{Binding Message}"  VerticalAlignment="Center"   FontSize="15" FontFamily="Open Sans"/>
+    </Grid>
+</UserControl>

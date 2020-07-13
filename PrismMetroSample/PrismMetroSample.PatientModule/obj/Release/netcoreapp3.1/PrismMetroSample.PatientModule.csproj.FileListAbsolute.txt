@@ -1,0 +1,17 @@
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\bin\Release\netcoreapp3.1\PrismMetroSample.PatientModule.deps.json
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\bin\Release\netcoreapp3.1\PrismMetroSample.PatientModule.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\bin\Release\netcoreapp3.1\PrismMetroSample.PatientModule.pdb
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\bin\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\bin\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.pdb
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.csprojAssemblyReference.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\Views\PatientDetail.baml
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\Views\PatientList.baml
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\Views\PatientDetail.g.cs
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\Views\PatientList.g.cs
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule_MarkupCompile.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.g.resources
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.AssemblyInfoInputs.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.AssemblyInfo.cs
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.csproj.CopyComplete
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.PatientModule\obj\Release\netcoreapp3.1\PrismMetroSample.PatientModule.pdb

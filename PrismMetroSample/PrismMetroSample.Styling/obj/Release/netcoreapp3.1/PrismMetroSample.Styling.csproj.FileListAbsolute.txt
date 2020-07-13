@@ -1,0 +1,12 @@
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\bin\Release\netcoreapp3.1\PrismMetroSample.Styling.deps.json
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\bin\Release\netcoreapp3.1\PrismMetroSample.Styling.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\bin\Release\netcoreapp3.1\PrismMetroSample.Styling.pdb
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling.csprojAssemblyReference.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling_MarkupCompile.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling_MarkupCompile.lref
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\Styles\ButtonStyle.baml
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling.g.resources
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling.AssemblyInfoInputs.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling.AssemblyInfo.cs
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Styling\obj\Release\netcoreapp3.1\PrismMetroSample.Styling.pdb

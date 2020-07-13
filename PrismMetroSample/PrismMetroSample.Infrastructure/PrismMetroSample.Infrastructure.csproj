@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Fonts\iconfont.ttf" />
+    <None Remove="Assets\Photos\alter.png" />
+    <None Remove="Assets\Photos\Home, homepage, menu.png" />
+    <None Remove="Assets\Photos\success.png" />
+    <None Remove="Assets\Photos\按钮.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.0.0-alpha0660" />
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.1422" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\iconfont.ttf" />
+    <Resource Include="Assets\Photos\alter.png" />
+    <Resource Include="Assets\Photos\Home, homepage, menu.png" />
+    <Resource Include="Assets\Photos\success.png" />
+    <Resource Include="Assets\Photos\按钮.png" />
+  </ItemGroup>
+
+</Project>

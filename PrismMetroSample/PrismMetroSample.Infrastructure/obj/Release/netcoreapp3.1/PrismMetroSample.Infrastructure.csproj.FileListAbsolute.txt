@@ -1,0 +1,9 @@
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\bin\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.deps.json
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\bin\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\bin\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.pdb
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\obj\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.csprojAssemblyReference.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\obj\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.g.resources
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\obj\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\obj\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.AssemblyInfo.cs
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\obj\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.dll
+C:\Users\11019\Documents\MyProject\PrismMetroSample\PrismMetroSample\PrismMetroSample\PrismMetroSample.Infrastructure\obj\Release\netcoreapp3.1\PrismMetroSample.Infrastructure.pdb

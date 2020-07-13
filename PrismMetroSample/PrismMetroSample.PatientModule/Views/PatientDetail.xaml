@@ -1,0 +1,44 @@
+﻿<metro:Flyout x:Class="PrismMetroSample.PatientModule.Views.PatientDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+              Header="PatientDetail"
+              Position="Left"
+              FontSize="15"            
+             d:DesignHeight="300" d:DesignWidth="300"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <StackPanel>
+        <Button Grid.Row="0" Content="Cancle Subscribe" Command="{Binding CancleSubscribeCommand}" FontSize="15" Margin="5"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Name:" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <TextBox Grid.Column="1" Margin="3" Text="{Binding CurrentPatient.Name}" IsReadOnly="True"/>
+            <TextBlock Grid.Column="2" Text="Age:" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <TextBox Grid.Column="3"  Margin="3" Text="{Binding CurrentPatient.Age}"/>
+            <TextBlock Grid.Row="1" Text="Sex:" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="3" Text="{Binding CurrentPatient.Sex}"/>
+            <TextBlock Grid.Row="1" Grid.Column="2" Text="RoomNo:" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <TextBox Grid.Row="1" Grid.Column="3"  Margin="3" Text="{Binding CurrentPatient.RoomNo}"/>
+        </Grid>
+        <DataGrid  Margin="5" ItemsSource="{Binding lstMedicines,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
+                <DataGridTextColumn Header="Unit" Binding="{Binding Unit}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</metro:Flyout>

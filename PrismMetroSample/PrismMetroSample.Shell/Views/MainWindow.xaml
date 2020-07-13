@@ -1,0 +1,54 @@
+﻿<metro:MetroWindow x:Class="PrismMetroSample.Shell.Views.MainWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+              WindowStartupLocation="CenterScreen"
+             GlowBrush="{DynamicResource AccentColorBrush}"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+              xmlns:region="clr-namespace:PrismMetroSample.Infrastructure.Constants;assembly=PrismMetroSample.Infrastructure"
+               prism:RegionManager.RegionManager="{Binding RegionMannager}"    
+             prism:ViewModelLocator.AutoWireViewModel="True" Height="800" Width="800" Title="MainWindow">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadingCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <metro:MetroWindow.Flyouts>
+        <metro:FlyoutsControl x:Name="flyoutsControlRegion" />
+    </metro:MetroWindow.Flyouts>
+    <!-- RightWindow Commands -->
+    <metro:MetroWindow.RightWindowCommands>
+        <metro:WindowCommands x:Name="rightWindowCommandsRegion" />
+    </metro:MetroWindow.RightWindowCommands>
+    <metro:MetroContentControl>
+        <Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/PrismMetroSample.Infrastructure;Component/Assets/Photos/Home, homepage, menu.png" Height="40"/>
+                    <Label Content="Home" FontSize="35" FontWeight="Bold"/>
+
+                </StackPanel>
+                <StackPanel Grid.Row="1">
+                    <Button  Content="Load MedicineModule" FontSize="25"  Margin="5" Command="{Binding LoadMedicineModuleCommand}"/>
+                    <UniformGrid Margin="5" prism:RegionManager.RegionName="{x:Static region:RegionNames.UniformContentRegion}" Columns="2">
+                        <Button Content="ActivePaientList" Margin="5" Command="{Binding ActivePaientListCommand}"/>
+                        <Button Content="DeactivePaientList" Margin="5" Command="{Binding DeactivePaientListCommand}"/>
+                        <Button Content="ActiveMedicineList" Margin="5" Command="{Binding ActiveMedicineListCommand}"/>
+                        <Button Content="DeactiveMedicineList" Margin="5" Command="{Binding DeactiveMedicineListCommand}"/>
+                    </UniformGrid>
+                </StackPanel>
+
+                <ContentControl x:Name="patientListRegion" Grid.Row="2" prism:RegionManager.RegionName="{x:Static region:RegionNames.PatientListRegion}" Margin="10"/>
+                <ContentControl x:Name="medicineMainContentRegion" Grid.Row="3" prism:RegionManager.RegionName="{x:Static region:RegionNames.MedicineMainContentRegion}"/>
+            </Grid>
+        </Grid>
+    </metro:MetroContentControl>
+    
+</metro:MetroWindow>
